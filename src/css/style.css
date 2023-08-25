@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+#start{
+    width: 100%;
+    color: #FFFFFFB3;
+    padding: 16rem;
+    background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),url(../img/bg-masthead.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center ;
+}
+.startcontainer{
+    width: 80%;
+    height: 348px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.startcontainer h1{
+    font-size: 56px;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    color: #fff;
+    line-height: 66px;
+} 
+.startcontainer p{
+    font-size: 18.4px;
+    font-family: 'Merriweather', serif;
+    line-height: 30px;
+}
+.startcontainer a,.aboutcontainer a,.containerpart a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.85rem;
+    background-color: #f4623a;
+    padding: 20px 36px;
+    border-radius: 10rem;
+    font-weight: 700;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.aboutcontainer a{
+    background-color: #fff;
+    color: black;
+}
+#about{
+    width: 100%;
+    padding: 128px 0;
+    background-color: #f4623a;
+    color: #fff;
+    text-align: center;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0 150px;
+    margin-top: 20px;
+}
+.title1 a,.title2 a{
+    color: #FFFFFFB3;
+    font-size: 15.4px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.title1 a{
+    font-size: 22px;
+    font-weight: 700;
+}
+.title2{
+    width: 30%;
+    display: flex;
+    justify-content: space-around   
+}
+.smalldivstart,.smalldivabout,.smalldivservices,.smalldivcontact{
+    background-color: #f4623a;
+    width: 52px;
+    height: 3.2px;
+}
+.smalldivabout{
+    background-color: #fff;
+}
+.aboutcontainer{
+    width: 52%;
+    height: 222px;
+    margin: auto;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutcontainer h2{
+    font-size: 32px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+}
+.aboutcontainer p{
+    color: #FFFFFFB3;
+}
+/* button kimi olan a'lara hover vermeyi unutma  */
+.cosd{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sd img{
+    width: 40px;
+    height: 40px;
+}
+.servicescontainer{
+    width: 100%;
+    height: 546px;
+    padding: 128px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.sd{
+    width: 18% ;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align-last:center ;
+}
+.servicescontainer h2,.sd h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+    color: #212529;
+}
+.servicescontainer h2{
+    font-size: 32px;
+}
+.sd h3{
+    font-size: 24px;
+}
+.sd p{
+    color: #6c757d;
+    line-height: 24px;
+}
+.containerpart{
+    width: 100%;
+    height: 380px;
+    background-color: #212529;
+    padding: 128px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.containerpart a{
+    padding: 1.25rem 2.25rem;
+    background-color: white;
+    color: black;
+}
+.containerpart h2{
+    font-family:'Merriweather Sans', sans-serif ;
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+.hoverpart{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.images{
+    width:33.3% ;
+}
+.images img{
+    width: 100%;
+}
+#contact{
+    padding: 128px 0;
+}
+.contactcontainer{
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.contactcontainer{
+    text-align: center;
+}
+input,textarea{
+    padding: 15px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.contactcontainer h2{
+    font-family: 'Merriweather Sans', sans-serif ;
+    font-size: 32px;
+    font-weight: 500;
+    color: #212529 ;
+}
+.contactcontainer p :nth-child(3){
+    color: #6c757d;
+    max-width: 588px;
+    line-height: 20px;
+}
+input[type="submit"]{
+    background-color: #f8997f;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-family: 'Merriweather Sans', sans-serif ;
+    border-radius: 10rem;
+    padding: 20px 0;
+}
+.smalldivcontainer-img-p img{
+    width: 46px;
+    height: 46px;
+}
+.number{
+    font-family: 'Merriweather', serif;
+}
+::placeholder,textarea{
+    font-family:'Merriweather', serif ;
+}
+footer{
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 48px 0;
+    font-size: 14px;
+    text-align: center;
+}
